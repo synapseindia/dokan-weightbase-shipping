@@ -1,0 +1,50 @@
+
+.dps-shipping-table,.dps-shipping-states {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 99%;
+}
+
+.dps-shipping-table td, .dps-shipping-table  th,.dps-shipping-states td, .dps-shipping-states  th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.dps-shipping-table tr:nth-child(even){background-color: #f2f2f2;}
+
+.dps-shipping-table tr:hover {background-color: #ddd;}
+
+.dps-shipping-table th,.dps-shipping-states th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+.dokan-shipping-location-wrapper .dps-shipping-location-content .dps-shipping-remove{
+	position: absolute;
+    top:-1px;
+    right: 0%;
+    height: 25px;
+    width: 25px;
+    
+    color: #ccc;
+}
+.dps-shipping-location-content{
+	border: 2px solid #eee;
+    margin-bottom: 15px;
+     position: relative; 
+}
+.dokan-input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+.dokan-input-group-addon {
+    
+    font-weight: normal;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    
+}
